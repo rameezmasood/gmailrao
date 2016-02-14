@@ -1,0 +1,362 @@
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working directory clean
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': rameezmasood
+Password for 'https://rameezmasood@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/rameezmasood/gitlab.git/'
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+Did you mean this?
+        remote
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git remote -v
+origin  https://github.com/rameezmasood/gitlab.git (fetch)
+origin  https://github.com/rameezmasood/gitlab.git (push)
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': rameezmasood
+Password for 'https://rameezmasood@github.com':
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+Everything up-to-date
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working directory clean
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: Anonymous access to rameezmasood/gitlab.git denied.
+fatal: Authentication failed for 'https://github.com/rameezmasood/gitlab.git/'
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git push origin -u
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: Anonymous access to rameezmasood/gitlab.git denied.
+fatal: Authentication failed for 'https://github.com/rameezmasood/gitlab.git/'
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git remote -v
+origin  https://github.com/rameezmasood/gitlab.git (fetch)
+origin  https://github.com/rameezmasood/gitlab.git (push)
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/rameezmasood/gitlab.git
+  Push  URL: https://github.com/rameezmasood/gitlab.git
+  HEAD branch: (unknown)
+  Local branch configured for 'git pull':
+    master merges with remote master
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git remote add origin https://github.com/rameezmasood/gitlab.git
+fatal: remote origin already exists.
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git push -u origin master
+Username for 'https://github.com': rameezmasood
+Password for 'https://rameezmasood@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 222 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/rameezmasood/gitlab.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git fetch
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/rameezmasood/gitlab
+   69e4b4b..0ead1d2  master     -> origin/master
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working directory clean
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git pull
+Updating 69e4b4b..0ead1d2
+Fast-forward
+ first.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git add .
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git commit -m "3rd changes in first.txt file"
+[master 86a693d] 3rd changes in first.txt file
+ 1 file changed, 2 insertions(+)
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working directory clean
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': rameezmasood
+Password for 'https://rameezmasood@github.com':
+Counting objects: 5, done.
+Writing objects: 100% (3/3), 279 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/rameezmasood/gitlab.git
+   0ead1d2..86a693d  master -> master
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (master)
+$ git checkout -b newbranch
+Switched to a new branch 'newbranch'
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (newbranch)
+$ git branch
+  master
+* newbranch
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (newbranch)
+$ git status
+On branch newbranch
+nothing to commit, working directory clean
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (newbranch)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/rameezmasood/gitlab.git
+  Push  URL: https://github.com/rameezmasood/gitlab.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (newbranch)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': rameezmasood
+Password for 'https://rameezmasood@github.com':
+Everything up-to-date
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (newbranch)
+$ git push origin -u newbranch
+Username for 'https://github.com': rameezmasood
+Password for 'https://rameezmasood@github.com':
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/rameezmasood/gitlab.git
+ * [new branch]      newbranch -> newbranch
+Branch newbranch set up to track remote branch newbranch from origin.
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (newbranch)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/rameezmasood/gitlab.git
+  Push  URL: https://github.com/rameezmasood/gitlab.git
+  HEAD branch: master
+  Remote branches:
+    master    tracked
+    newbranch tracked
+  Local branches configured for 'git pull':
+    master    merges with remote master
+    newbranch merges with remote newbranch
+  Local refs configured for 'git push':
+    master    pushes to master    (up to date)
+    newbranch pushes to newbranch (up to date)
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (newbranch)
+$
+
+192.168.3.7@DESKTOP-E6NO634 ~/Desktop/rameez/gitlab (newbranch)
+$
